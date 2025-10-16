@@ -1,0 +1,111 @@
+.container {
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: center;
+}
+.left-hidden-section {
+    display: none;
+}
+.form-header {
+    padding-top: 40px;
+}
+.form-header h2{
+    font-size: 35px;
+}
+.form-header p{
+    font-size: 25px;
+} 
+.form-container {
+    display: grid;
+    grid-template-rows: auto;
+}
+.form-group {
+    font-size: 25px;
+}
+.user-section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.icon-input {
+    margin-top: 7px;
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    align-items: center;
+}
+.icon-input input {
+    font-size: 20px;
+    height: 30px;
+    border-radius: 7px;
+}
+.forgot-link-details {
+    margin-top: 8px;
+    font-size: 18px;
+    justify-self: end;
+    color: #3498db;
+    text-decoration: none;
+}
+.button-details {
+    margin-top: 50px;
+    background: #3498db;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 7px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+.sign-p {
+    justify-self: center;
+    font-size: 18px;
+    margin-top: 40px;
+}
+.sign-link-details {
+    color: #3498db;
+    text-decoration: none;
+}
+@media (min-width: 1180px) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 0%;
+    }
+    .left-hidden-section {
+        display: flex;
+        background: #3498db;
+        align-items: center;
+        justify-content: center;
+        font-size: 35px;
+        font-weight: bolder;
+        color: white;
+    }
+    .form-header {
+        padding-top: 70px;
+    }
+    .sign-p {
+        display: none;
+    }
+    .user-section {
+        margin-top: 35px;
+        margin-bottom: 45px;
+    }
+    .icon-input input {
+        font-size: 20px;
+        height: 35px;
+        border-radius: 7px;
+    }
+    .icon-input i {
+        font-size: 30px;
+        padding-right: 7px;
+    }
+    .forgot-link-details {
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .button-details {
+        margin-top: 65px;
+        width: 200px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-bottom: 200px;
+    }
+}

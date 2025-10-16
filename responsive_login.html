@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/newLogin_style.css">
+    <title>Responsive Login</title>
+</head>
+<body>
+    <div class="left-hidden-section">AdminExpress</div>
+    <div class="container">
+        <div class="form-header">
+            <h2>Let's Sing In</h2>
+            <p>Hey. Enter your details to get sign in<br>to your account.</p>
+        </div>
+        <form action="" method="post" class="form-container">
+            <div class="form-group user-section">
+                <label for="text" class="label-details">Username:</label>
+                <div class="icon-input">
+                    <i class="fa-solid fa-user icon-details"></i>
+                    <input type="text" id="id_username" name="username" class="input-details" 
+                    placeholder="Enter your username" required>
+                </div>
+            </div>
+            <div class="form-group pass-section">
+                <label for="password" class="label-details">Password:</label>
+                <div class="icon-input">
+                    <i class="fa-solid fa-key icon-details"></i>
+                    <input type="password" id="id_password" name="password" class="input-details" 
+                    placeholder="Enter your password" required>
+                </div>
+            </div>
+            <a href="#" class="forgot-link-details">Forgot password?</a>
+            <button type="submit" class="button-details">Sign In</button>
+        </form>
+        <div class="sign-p">
+            <p>Don't have an account? <a href="#" class="sign-link-details">Sign Up</a></p>
+        </div>
+    </div>
+</body>
+</html>
